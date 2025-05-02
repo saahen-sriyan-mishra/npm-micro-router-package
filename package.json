@@ -1,6 +1,6 @@
 {
   "name": "@saahen.sriyan.mishra/micro-router",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A lightweight, high-performance HTTP routing library for Node.js, designode.js, designed for simplicity and speed without external dependencies. ",
   "main": "index.js",
   "scripts": {

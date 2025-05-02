@@ -29,26 +29,3 @@ const router = new MicroRouter();
 | `router.middleware()`      | `(req, res)`              | Checks for blacklists, rate limits, secure headers (auto-used in `.handler()`)                | Handles security policies out-of-the-box    |
 | `router.handler()`         | `(req, res)`              | Internal routing logic that invokes correct route handlers (auto-used in `.listen()`)         | Complete route + validation logic           |
 | `router.normalizeIP()`     | `(ip)`                    | Standardizes local and remote IP formats                                                      | Handles localhost vs real IP equivalence    |
-
-
-
-## Why Use MicroRouter?
-
-Modern backend applications need to be fast, secure, and lightweight. `@saahen.sriyan.mishra/micro-router` is built with **zero dependencies**, yet it offers **production-minded features** such as:
-
-- Minimalist Routing (GET, POST, PUT, DELETE)
-- IP Blacklisting / Whitelisting
-- Rate Limiting (to prevent abuse)
-- Secure HTTP Headers (CSP, X-Frame-Options, etc.)
-- Request Logging
-- Payload Size Protection
-- Suspicious IP Tracking and Blocking
-
-This makes it ideal for:
-
-- Microservices or serverless environments
-- Educational and internal tools
-- Prototypes with strong security defaults
-- Replacements for Express/Koa when only minimal functionality is needed
-
----
