@@ -24,8 +24,5 @@
   "bugs": {
     "url": "https://github.com/saahen-sriyan-mishra/npm-micro-router-package/issues"
   },
-  "homepage": "https://github.com/saahen-sriyan-mishra/npm-micro-router-package#readme",
-  "dependencies": {
-    "@saahen.sriyan.mishra/micro-router": "file:"
-  }
+  "homepage": "https://github.com/saahen-sriyan-mishra/npm-micro-router-package#readme"
 }
