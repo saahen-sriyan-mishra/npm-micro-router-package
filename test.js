@@ -1,5 +1,6 @@
-const MicroRouter = require("@saahen.sriyan.mishra/micro-router");
+// const MicroRouter = require("@saahen.sriyan.mishra/micro-router");
 
+const MicroRouter = require("./index");
 const router = new MicroRouter();
 
 router.register("GET", "/public", (req, res) => {
