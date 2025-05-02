@@ -7,7 +7,7 @@ class MicroRouter {
         this.routes = { GET: {}, POST: {}, PUT: {}, DELETE: {} };
         this.rateLimitMap = new Map();
         this.ipBlacklist = new Set();
-        this.ipWhitelist = new Set(); // Optional
+        this.ipWhitelist = new Set();
         this.requestLog = [];
         this.suspiciousIPAttempts = new Map();
 
@@ -119,21 +119,21 @@ class MicroRouter {
 
     listen(port = 3000) {
         const server = http.createServer((req, res) => this.handler(req, res));
-        server.listen(port, () => console.log(`✅ SecureRouter running on port ${port}`));
+        server.listen(port, () => console.log(`SecureRouter running on port ${port}`));
     }
 
     blockIP(ip) {
         this.ipBlacklist.add(this.normalizeIP(ip));
-        console.log(`🚫 Blocked IP: ${ip}`);
+        console.log(`Blocked IP: ${ip}`);
     }
 
     allowIP(ip) {
         this.ipBlacklist.delete(this.normalizeIP(ip));
-        console.log(`✅ Allowed IP: ${ip}`);
+        console.log(`Allowed IP: ${ip}`);
     }
 
     showLogs() {
-        console.log("📜 Request Logs:", this.requestLog);
+        console.log("Request Logs:", this.requestLog);
     }
 }
 
