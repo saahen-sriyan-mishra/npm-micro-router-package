@@ -1,0 +1,36 @@
+{
+  "name": "@saahen.sriyan.mishra/micro-router",
+  "version": "1.0.0",
+  "description": "A lightweight, high-performance HTTP routing library for Node.js, designode.js, designed for simplicity and speed without external dependencies. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saahen-sriyan-mishra/npm-micro-router-package.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "router",
+    "microservice",
+    "http",
+    "server",
+    "middleware",
+    "lightweight",
+    "fast",
+    "rest",
+    "API",
+    "routing",
+    "plugin",
+    "zero-dependancey",
+    "secure"
+  ],
+  "author": "Saahen Sriyan Mishra",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/saahen-sriyan-mishra/npm-micro-router-package/issues"
+  },
+  "homepage": "https://github.com/saahen-sriyan-mishra/npm-micro-router-package#readme"
+}
